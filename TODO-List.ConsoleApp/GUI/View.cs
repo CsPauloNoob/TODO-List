@@ -1,4 +1,4 @@
-namespace TODO_List.Application.GUI;
+namespace TODO_List.ConsoleApp.GUI;
 
 public abstract class View
 {

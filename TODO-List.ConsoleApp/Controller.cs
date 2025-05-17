@@ -1,7 +1,7 @@
 using TODO_List.Application.AppServices;
 using TODO_List.Application.GUI;
 
-namespace TODO_List.Application;
+namespace TODO_List.ConsoleApp;
 
 public class Controller
 {

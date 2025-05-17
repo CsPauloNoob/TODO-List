@@ -1,0 +1,14 @@
+/home/paulo/RiderProjects/TODO-List/TODO-List.Application/bin/Debug/net9.0/TODO-List.Application
+/home/paulo/RiderProjects/TODO-List/TODO-List.Application/bin/Debug/net9.0/TODO-List.Application.deps.json
+/home/paulo/RiderProjects/TODO-List/TODO-List.Application/bin/Debug/net9.0/TODO-List.Application.runtimeconfig.json
+/home/paulo/RiderProjects/TODO-List/TODO-List.Application/bin/Debug/net9.0/TODO-List.Application.dll
+/home/paulo/RiderProjects/TODO-List/TODO-List.Application/bin/Debug/net9.0/TODO-List.Application.pdb
+/home/paulo/RiderProjects/TODO-List/TODO-List.Application/obj/Debug/net9.0/TODO-List.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/paulo/RiderProjects/TODO-List/TODO-List.Application/obj/Debug/net9.0/TODO-List.Application.AssemblyInfoInputs.cache
+/home/paulo/RiderProjects/TODO-List/TODO-List.Application/obj/Debug/net9.0/TODO-List.Application.AssemblyInfo.cs
+/home/paulo/RiderProjects/TODO-List/TODO-List.Application/obj/Debug/net9.0/TODO-List.Application.csproj.CoreCompileInputs.cache
+/home/paulo/RiderProjects/TODO-List/TODO-List.Application/obj/Debug/net9.0/TODO-List.Application.dll
+/home/paulo/RiderProjects/TODO-List/TODO-List.Application/obj/Debug/net9.0/refint/TODO-List.Application.dll
+/home/paulo/RiderProjects/TODO-List/TODO-List.Application/obj/Debug/net9.0/TODO-List.Application.pdb
+/home/paulo/RiderProjects/TODO-List/TODO-List.Application/obj/Debug/net9.0/TODO-List.Application.genruntimeconfig.cache
+/home/paulo/RiderProjects/TODO-List/TODO-List.Application/obj/Debug/net9.0/ref/TODO-List.Application.dll

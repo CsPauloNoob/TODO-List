@@ -27,7 +27,7 @@ public class UsuarioService
         return usuario.RecuperarNota(id);
     }
 
-    public void ExcluirNota(string nomeUsuario)
+    public void ExcluirNota(string nomeUsuario, int id)
     {
         var usuario = _repositorioUsuario.ObterUsuarioPorNome(nomeUsuario);
         //usuario.RemoverNota();

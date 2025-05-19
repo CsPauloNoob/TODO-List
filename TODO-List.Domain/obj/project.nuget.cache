@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "edDNwwSKVFw=",
+  "dgSpecHash": "e8io4GOBa+8=",
   "success": true,
-  "projectFilePath": "E:\\Projetos\\TODO-List\\TODO-List.Domain\\TODO-List.Domain.csproj",
+  "projectFilePath": "/home/paulo/RiderProjects/TODO-List/TODO-List.Domain/TODO-List.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

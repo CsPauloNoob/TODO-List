@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TODO-List.ConsoleApp", "TOD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TODO-List.Application", "TODO-List.Application\TODO-List.Application.csproj", "{8DB514EA-B72D-44CC-8A6D-2A5431E0754D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TODO-List.Infra", "TODO-List.Infra\TODO-List.Infra.csproj", "{D2C16085-B33F-4FDA-A989-BF9FAACB3AF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TODO-List.Testes", "TODO-List.Testes\TODO-List.Testes.csproj", "{51658646-A912-4B4E-8ED8-EB5906AAB866}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{8DB514EA-B72D-44CC-8A6D-2A5431E0754D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DB514EA-B72D-44CC-8A6D-2A5431E0754D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DB514EA-B72D-44CC-8A6D-2A5431E0754D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2C16085-B33F-4FDA-A989-BF9FAACB3AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C16085-B33F-4FDA-A989-BF9FAACB3AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C16085-B33F-4FDA-A989-BF9FAACB3AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C16085-B33F-4FDA-A989-BF9FAACB3AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51658646-A912-4B4E-8ED8-EB5906AAB866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51658646-A912-4B4E-8ED8-EB5906AAB866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51658646-A912-4B4E-8ED8-EB5906AAB866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51658646-A912-4B4E-8ED8-EB5906AAB866}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

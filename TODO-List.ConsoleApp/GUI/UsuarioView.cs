@@ -1,4 +1,4 @@
-namespace TODO_List.Application.GUI;
+namespace TODO_List.ConsoleApp.GUI;
 
 public class UsuarioView : View
 {
@@ -31,7 +31,7 @@ public class UsuarioView : View
     public string LerNomeUsuario()
     {
         var nome = Console.ReadLine();
-        
+
         return nome;
     }
 }

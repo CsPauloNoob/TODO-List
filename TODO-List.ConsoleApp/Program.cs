@@ -1,7 +1,5 @@
 ﻿using TODO_List.Application.AppServices;
-using TODO_List.ConsoleApp;
-
-namespace TODO_List.Application;
+namespace TODO_List.ConsoleApp;
 
 class Program
 {

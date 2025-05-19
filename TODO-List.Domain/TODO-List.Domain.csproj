@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <RootNamespace>TODO_List.Domain</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
@@ -9,7 +9,7 @@
 
     <ItemGroup>
       <Compile Remove="ValueObjects\CredenciaisUsuario.cs" />
-      <Compile Remove="Entidades\Entidade.cs" />
+      <Compile Remove="Modelo\Entidade.cs" />
       <Compile Remove="DomainExceptions\TextoVazioException.cs" />
     </ItemGroup>
 

@@ -1,26 +1,27 @@
 using TODO_List.Domain.DomainExceptions;
 using TODO_List.Domain.ValueObjects;
 
-namespace TODO_List.Domain.Entidades.NotaDir;
+namespace TODO_List.Domain.Modelo;
 
 public class Nota
 {
-    public int Id { get; set; }
+    public int Id { get; private set; }
     public string Titulo { get; private set; }
-    
-    public string Texto { get; private set; }
-    
-    public List<Tag> Tags { get; private set; }
 
-    public Nota(string titulo, string texto)
+    public string Texto { get; private set; }
+
+    public List<Tag> Tags { get; private set; } = [];
+
+    public Nota(int id, string titulo, string texto)
     {
         if (ValidarEntrada(texto))
         {
+            Id = id;
             Titulo = titulo;
             Texto = texto;
         }
 
-        else throw new TextoVazioOuNuloException("Texto não pode ser vazio!");
+        else throw new TextoVazioOuNuloException();
     }
 
 
@@ -34,11 +35,9 @@ public class Nota
 
     public void AdicionarTag(Tag tag)
     {
-        if (Tags.Exists(t => t.Name == tag.Name))
+        if (Tags.Exists(t => t.Nome == tag.Nome))
             return;
-        
+
         Tags.Add(tag);
     }
-    
-    
 }

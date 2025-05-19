@@ -4,12 +4,25 @@
     "net8.0": {
       "TODO-List.Domain/1.0.0": {
         "type": "project",
-        "framework": "Unsupported,Version=v0.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
           "bin/placeholder/TODO-List.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/TODO-List.Domain.dll": {}
+        }
+      },
+      "TODO-List.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TODO-List.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TODO-List.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TODO-List.Infra.dll": {}
         }
       }
     }
@@ -19,11 +32,17 @@
       "type": "project",
       "path": "../TODO-List.Domain/TODO-List.Domain.csproj",
       "msbuildProject": "../TODO-List.Domain/TODO-List.Domain.csproj"
+    },
+    "TODO-List.Infra/1.0.0": {
+      "type": "project",
+      "path": "../TODO-List.Infra/TODO-List.Infra.csproj",
+      "msbuildProject": "../TODO-List.Infra/TODO-List.Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "TODO-List.Domain >= 1.0.0"
+      "TODO-List.Domain >= 1.0.0",
+      "TODO-List.Infra >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -62,6 +81,9 @@
           "projectReferences": {
             "E:\\Projetos\\TODO-List\\TODO-List.Domain\\TODO-List.Domain.csproj": {
               "projectPath": "E:\\Projetos\\TODO-List\\TODO-List.Domain\\TODO-List.Domain.csproj"
+            },
+            "E:\\Projetos\\TODO-List\\TODO-List.Infra\\TODO-List.Infra.csproj": {
+              "projectPath": "E:\\Projetos\\TODO-List\\TODO-List.Infra\\TODO-List.Infra.csproj"
             }
           }
         }
@@ -100,16 +122,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "O projeto TODO-List.Domain não é compatível com net8.0 (.NETCoreApp,Version=v8.0). O projeto TODO-List.Domain dá suporte a: net9.0 (.NETCoreApp,Version=v9.0)",
-      "libraryId": "TODO-List.Domain",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

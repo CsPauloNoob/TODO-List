@@ -2,14 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>TODO_List.Application</RootNamespace>
+    <RootNamespace>TODO_List.Infra</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\TODO-List.Domain\TODO-List.Domain.csproj" />
-    <ProjectReference Include="..\TODO-List.Infra\TODO-List.Infra.csproj" />
   </ItemGroup>
 
 </Project>
